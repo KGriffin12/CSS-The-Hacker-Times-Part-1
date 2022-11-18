@@ -27,6 +27,8 @@ section{
     border-radius: 25px;
     box-shadow: 2px 4px lightgray;
     padding: .001em;
+    display: block;
+    margin: auto;
     
     
 }
