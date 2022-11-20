@@ -8,6 +8,10 @@ header{
     padding-left: 1em;
 }
 
+h5{
+    color: rgb(221, 7, 7);
+}
+
 main{
     padding-left: 1em;
     padding-right: 1em;
@@ -19,7 +23,10 @@ section{
     padding-left: 1em;
     font-family: georgia;
     padding-bottom: 2em;
+    
+    
 }
+
 
 .newspaper-container {
     background-color: white;
@@ -36,19 +43,30 @@ section{
 h1 {
     text-align: center;
     font-family: Abril Fatface;
+    
 }
 
 li{
     display: inline;
-    padding: .5em;
-    padding-left: .01em;
+    padding: .3em;
+    padding-right: .05em;
+    padding-left: .05em;
     font-size: small;
     text-align: center;
-    color: #777;
+    color:#777;
     font-family: georgia;
+    
 }
 
-a:link {
+a {
     color: #777;
     text-decoration: none;
+    
+}
+
+.more-articles section{
+    display: inline-block;
+    width: 44%;
+    margin: 0, 1em;
+    
 }
